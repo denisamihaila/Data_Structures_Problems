@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716386014 source:d:\sd tema individuala\infoarena\proc2\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<vector>
+
