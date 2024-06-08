@@ -14,9 +14,9 @@ int main() {
     f >> n >> m;
 
     // Coada de prioritate pentru procesoare, ordonate după index
-    priority_queue<int, vector<int>, greater<int>> p; //min heap
+    priority_queue<int, vector<int>, greater<int>> p; //Min heap
     // Coada de prioritate pentru timp, ordonată după timpul de finalizare al sarcinilor
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> timp; //min heap
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> timp; //Min heap
 
     int t1, t2, urmP;
 
@@ -38,9 +38,9 @@ int main() {
 
         // Selectăm cel mai mic index de procesor disponibil
         urmP = p.top();
-        timp.push({ t1 + t2, urmP }); // Îl programăm pe acesta pentru noua sarcină, marcam timpul de finalizare
+        timp.push({ t1 + t2, urmP }); // Îl programăm pe acesta pentru noua sarcină, marcăm timpul de finalizare
         p.pop(); // Îl scoatem din coada de procesoare disponibile
-        g << urmP << endl; // Scriem procesorul asignat în fișierul de ieșire
+        g << urmP << endl; // Procesorul asignat
 
     }
     f.close();

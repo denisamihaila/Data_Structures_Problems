@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1717785516 source:d:\sd tema individuala\pbinfo\consecutive1\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<sstream>
+
