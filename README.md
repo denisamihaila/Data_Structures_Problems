@@ -1,6 +1,6 @@
 ### Data Structures Problems
 ## INFOARENA
-[Link Bleach Problem][https://www.infoarena.ro/problema/bleach]
+[Link Bleach Problem](https://www.infoarena.ro/problema/bleach)
 https://www.infoarena.ro/problema/proc2
 https://www.infoarena.ro/problema/timbre
 https://infoarena.ro/problema/pikachu
