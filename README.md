@@ -1,4 +1,4 @@
-### Data Structures Problems
+# Data Structures Problems
 
 ## Infoarena
 
